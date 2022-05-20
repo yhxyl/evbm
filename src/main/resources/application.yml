@@ -1,0 +1,17 @@
+server:
+  port: 8810
+  servlet:
+    # 设置项目路径
+    context-path: /evbm
+
+#spring:
+#  thymeleaf:
+#    # 禁用缓存
+#    cache: false
+#    prefix: classpath:/webapp/pages/
+#  web:
+#    resources:
+##       设置静态资源地址，配置后所有文件均视为根路径，可在地址中直接访问：
+##       1.http://localhost:8810/evbm/index.html 即 【/webapp/src/】index.html
+##       2.http://localhost:8810/evbm/src/view/xxx.html 即 【/webapp/】src/view/xxx.html
+#      static-locations: classpath:/webapp/
